@@ -1,0 +1,23 @@
+title: "Juhyeon Kim"
+email: your.email@domain.com
+description: >-
+  Academic homepage of Juhyeon Kim, a Ph.D. student in machine learning and causal inference.
+baseurl: ""
+url: "https://juhyeon.github.io"
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: default
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-scholar
+include:
+  - _pages
+collections:
+  publications:
+    output: true
+    permalink: /publications/:path/
+scholar:
+  style: apa
+  locale: en
+  source: ./_bibliography
+  bibliography: research.bib
